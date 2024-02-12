@@ -43,15 +43,15 @@ in mypico shell it's asimple shell that can do
           
           c-you can display all vars by cmd (set) or display one var by his name (ex-> x).
           
-  5- i stoped killed signal so if you want to exit of my shell enter command (exit)
-
-  6- you can use redirection operations like (>),(<) and (|) 
+  5- you can use redirection operations like (>),(<) and (|) 
   
       ex1-> CMD > file       (out redirection)
       
       ex2-> CMD < file       (in redirection)
       
       ex3-> CMD1 | CMD2      (pipe redirection)
+
+  6- i stoped killed signal so if you want to exit of my shell enter command (exit)
 
   7- if you input non builtin command it will be exeute by bash by (execvp).
 
