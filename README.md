@@ -1,5 +1,6 @@
 # mypico-shell
 in mypico shell it's asimple shell that can do
+
   1- get command line from user by
           a-Get_Command_Line function that takes (double ptr to your command line) as argument 
         and return on success (int) : size of cmd line, on fail return : -1 .
@@ -36,11 +37,13 @@ in mypico shell it's asimple shell that can do
       ex2-> CMD < file       (in redirection)
       ex3-> CMD1 | CMD2      (pipe redirection)
 
-  7- if you input non builtin command it will be exeute by bash by (execvp) 
+  7- if you input non builtin command it will be exeute by bash by (execvp).
 
   8- remember that my shell will not die till you enter (exit) command.
 
-  9- thanks for your time 
+  9-i made for you make file to easy compile.
+
+  10- thanks for your time 
   
         
 
